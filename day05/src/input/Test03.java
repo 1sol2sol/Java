@@ -17,7 +17,6 @@ public class Test03 {
 		System.out.println("짬뽕 개수를 입력하세요(한 그릇당 6000원)");
 		int rednoodlesCount = sc.nextInt();
 
-	
 		sc.close();
 		
 		int blacknoodlesTotal = blacknoodlesPrice * blacknoodlesCount;
