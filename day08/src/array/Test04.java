@@ -8,7 +8,8 @@ public class Test04 {
 		int[] data = new int[] {10,20,30,40,50,60,70,80,90,100};
 		System.out.println(data.length);
 		
-		for(int i=0; i<=data.length-1; i++) {
+	//  for(int i=0; i<=data.length-1; i++) {
+		for(int i=0; i<data.length; i++) {//배열의 전체를 반복하는 반복문
 			System.out.println(data[i]);
 		}
 	}
