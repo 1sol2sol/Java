@@ -6,7 +6,6 @@ import java.util.Scanner;
 public class Test02 {
 	public static void main(String[] args) {
 		//while문의 주 용도는 "특정 시점까지의 반복"이다.
-		
 		//목표 : 사용자가 0을 입력할때까지 숫자를 입력받는 프로그램
 		
 		Scanner sc = new Scanner(System.in);
