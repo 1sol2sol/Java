@@ -13,6 +13,7 @@ public class Test01 {
 // = 위험한 경우에 대한 plan B를 요구한다 = 예외처리(아직 안배웠음)
 // = 엔터든 스페이스든 뭐든지 글자로 인식하기 때문에 구분을 개발자가 직접 해야한다.
 // = 숫자를 인지하지 못하기 때문에 여러자리를 개발자가 직접 합쳐야한다.
+// = enter는 \r\n이 합쳐진것이다.		
 	int a = System.in.read();
 	System.out.println("a=" + a);
 	int b = System.in.read();
