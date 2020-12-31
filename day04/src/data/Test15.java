@@ -6,10 +6,12 @@ public class Test15 {
 	public static void main(String[] args) {
 		//준비
 		//나이 계산은 특정 구간에 있는 숫자 개수를 세는 것과 같다.
-		//구간에 있는 숫자 계산을 구하는 공식 > 끝수 - 시작수 + 1
+		//구간에 있는 숫자 계산을 구하는 공식 => 끝수 - 시작수 + 1
 		
 		int year = 2020; // 올해(애매한 키워드)Test15.java
 		int birth = 2000; //태어난 해 
+		
+		//계산
 		int age = year - birth + 1;
 		boolean adult = age >= 20;
 		
