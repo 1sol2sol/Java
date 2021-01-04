@@ -13,6 +13,7 @@ public class Test06 {
 		
 		// 반목문 없이 어떻게 코드를 작성해야 오른쪽으로 1칸 쉬프트가 가능할까?
 		int temp = data[4]; // temp라는 변수를 만들어서 40을 복사해둠
+		
 		data[4]=data[3];
 		data[3]=data[2];
 		data[2]=data[1];
