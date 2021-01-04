@@ -17,10 +17,5 @@ public class Test01 {
 		System.out.println(b);
 		System.out.println(c);
 		
-		
-		
-		
-
 	}
-
 }
