@@ -10,12 +10,12 @@ public class Test07_2 {
 		// 1.데이터를 배열에 보관
 		int[] data = new int[] {30,50,20,10,40};
 		
-		// 2.데이터 회전(여러칸,반목문사용)> 50,20,10,40,30
+		// 2.데이터 회전(여러칸,반목문사용)
 		int distance = 3;// 회전시킬 칸수
-		int temp = data[0]; // temp라는 변수 만들어서 30 보관
 		
 		for(int k=0; k<distance; k++) {
 			
+			int temp = data[0]; // temp라는 변수 만들어서 30 보관
 			for(int i=0; i<data.length-1; i++) {
 				data[i]=data[i+1];
 		}
