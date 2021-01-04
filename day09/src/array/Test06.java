@@ -18,6 +18,7 @@ public class Test06 {
 		data[3]=data[2];
 		data[2]=data[1];
 		data[1]=data[0];
+		
 		data[0]=temp;
 				
 		//데이터 전체 출력
