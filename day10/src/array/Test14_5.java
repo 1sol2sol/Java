@@ -1,0 +1,40 @@
+package array;
+
+public class Test14_5 {
+	public static void main(String[] args) {
+//		2차원 배열의 생성
+//		= 표의 형태
+//		= 줄/칸의 개념이 있다
+
+//		크기를 변수화 시켜 저장
+		int row = 5;
+		int col = 3;
+//		1. 생성 후 초기화 하는 방법
+		int[][] score = new int[row][col]; // 세칸짜리 1차원 배열을 5개 모은 형태
+										// 3개짜리 5개
+
+//		score ----> score[0]  ----> [0][62][0]
+//					score[1]  ----> 75][0][0]
+//					score[2]  ----> [0][50][0]	
+//					score[3]  ----> [0][0][0]
+//					score[4]  ----> [0][0][0]
+
+//		2. 초기화
+		score[0][1] = 62;
+		score[1][0] = 75;
+		score[2][1] = 50;
+
+//		3. 전체 출력 -미리 정의한 변수 사용
+	
+		
+		for (int k = 0; k < row; k++) {
+			for (int i = 0; i < col; i++) {
+				System.out.print(score[k][i]);
+				System.out.print("\t");
+			}
+			System.out.println();
+		}
+
+	}
+
+}
