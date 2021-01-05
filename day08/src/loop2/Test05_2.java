@@ -14,8 +14,9 @@ public class Test05_2 {
 		while(true) {
 			position +=3; // 3cm 올라가는 코드(낮)
 			System.out.println("올라간 위치:"+position+"cm" );
-			
-			count++; // 낮의 개수를 카운트
+		
+			count++
+			; // 낮의 개수를 카운트
 			
 			if(position>=15) {
 				System.out.println("올라왔네요!");
