@@ -7,7 +7,7 @@ public class Test12_5 {
 		int[] data = new int[] { 30, 50, 20, 40, 10 };
 		
 //		2. 모든 회차를 통합 반복문으로 구현
-		for(int k=1; k <= 4; k++) {
+		for(int k=1; k < data.length; k++) {
 			for(int i=data.length-1; i >= k; i--) {
 				if(data[i-1] > data[i]) {
 					int temp = data[i-1];

@@ -2,6 +2,7 @@ package array;
 
 public class Test12 {
 	public static void main(String[] args) {
+//		버블정렬 예제
 		
 //		1. 데이터 준비
 		int[] data = new int[] { 30, 50, 20, 40, 10 };
