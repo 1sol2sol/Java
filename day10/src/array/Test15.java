@@ -1,4 +1,8 @@
+/*<문제>
+다음 데이터를 2차원 배열에 저장한 뒤 출력
 
+자바, JSP, Spring
+Python, DJango, Pandas*/
 package array;
 
 public class Test15 {
