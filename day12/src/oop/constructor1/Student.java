@@ -13,6 +13,13 @@ public class Student {
 		this.name = name;
 		this.score = score;
 	}
+	//생성자 오버로딩 (많이 물어보는 개념이고 시험에도 많이 나옴)
+	// => 뭘 좋아할지 몰라 다 준비했어 
+	// => 선택지가 여러개 생긴다 
+	public Student(String name) {
+		this.name = name;
+	//	this.score = 0;
+	}
 	public void output() {
 		System.out.println("이름: " + this.name);
 		System.out.println("점수: " + this.score);
