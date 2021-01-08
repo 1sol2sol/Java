@@ -17,7 +17,7 @@ public class Robot {
 		//return (double)multiple(width,height)/2;
 	}
 	public static double circle(int radius) {
-		//double area = radus * radius * 3.14;
+		//double area = radius * radius * 3.14;
 		double area = 3.14*square(radius);
 		return area;
 	}
