@@ -1,0 +1,9 @@
+package oop.modifier7;
+
+public class Test01 {
+	public static void main(String[] args) {
+		// 목표 : Calculator로 10+20 을 계산하여 출력
+		System.out.println(Calculator.plus(10, 20));
+	}
+}
+
