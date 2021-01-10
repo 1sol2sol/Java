@@ -21,7 +21,7 @@ public class Account {
 //		this.balance = 0L;
 //		this.rate = rate;
 	}
-	public Account(String accountNumber, String name, Long blance, float rate) {
+	public Account(String accountNumber, String name, long blance, float rate) {
 		this.accountNumber = accountNumber;//final
 		this.setName(name);
 		this.setBalance(blance);
