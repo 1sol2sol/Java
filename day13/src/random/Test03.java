@@ -1,4 +1,4 @@
-package Random;
+package random;
 //다음 랜덤값을 구하여 출력
 //1. 로또번호 1개 
 //2. 두 자리 정수 중 1개 
