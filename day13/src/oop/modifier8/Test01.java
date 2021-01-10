@@ -1,5 +1,7 @@
 package oop.modifier8;
 
+import oop.modifier8.Robot;
+
 public class Test01 {
 public static void main(String[] args) {
 	int a = Robot.multiple(10, 20);
