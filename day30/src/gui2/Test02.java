@@ -82,10 +82,6 @@ public class Test02 {
 		mf.add(cb2);
 		mf.add(cb3);
 		
-		
-		
-		
-		
 		mf.setVisible(true);
 
 	}
