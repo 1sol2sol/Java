@@ -16,7 +16,7 @@ public class Test01 {
 		// 메모 보내기 창 만들기 
 		
 		JFrame mf = new JFrame("메모 보내기");
-		
+		 
 		mf.setLocationRelativeTo(null); // 화면 중앙에 위치 시킴
 		mf.setSize(500,500); // 창의 사이즈 조정 
 		mf.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // 창의 x버튼 활성화 
